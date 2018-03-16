@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>Delete Existing Product</h2>
+	<nav>
+		<ul>
+			<li class="mainmenu"><a href="addnewproduct.html">Add New
+					Product</a></li>
+			<li class="mainmenu"><a href="deleteproduct.html">Delete
+					Existing Product</a></li>
+			<li class="mainmenu"><a href="modifyproduct.html">Modify
+					Existing Product</a></li>
+		</ul>
+	</nav>
+
+
+	<form action="DeleteProduct" method="post">
+		<table style="width: 60%; margin-left: 50px">
+			<tr>
+				<th colspan="2">Delete Product</th>
+			</tr>
+			<tr>
+			<tr>
+				<td align="right">
+					<div class="shipping-input-fields">
+						<label>Product ID<span style="color: blue">*</span> :
+						</label>
+					</div>
+				</td>
+				<td>
+					<div class="shipping-input-fields">
+						<input type="text" name="product_id" class="login-input"
+							style="width: 250px; height: 25px" required />
+					</div>
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="2" align="center">
+					<div>
+						<button class="sign-in-up-button" type="submit">Delete
+							Product</button>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

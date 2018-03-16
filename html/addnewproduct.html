@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add New Product</title>
+</head>
+<body>
+	<h2>Add New Product</h2>
+	<nav>
+		<ul>
+			<li class="mainmenu"><a href="addnewproduct.html">Add New
+					Product</a></li>
+			<li class="mainmenu"><a href="deleteproduct.html">Delete
+					Existing Product</a></li>
+			<li class="mainmenu"><a href="modifyproduct.html">Modify
+					Existing Product</a></li>
+		</ul>
+	</nav>
+	
+	<form action="addNewProduct" method="post">
+		<table style="width: 60%; margin-left: 50px">
+			<tr>
+				<th colspan="2">Add New Product</th>
+			</tr>
+			<tr>
+			<tr>
+				<td align="right">
+					<div class="shipping-input-fields">
+						<label>Product ID<span style="color: blue">*</span> :
+						</label>
+					</div>
+				</td>
+				<td>
+					<div class="shipping-input-fields">
+						<input type="text" name="product_id" class="login-input"
+							style="width: 250px; height: 25px" required />
+					</div>
+				</td>
+			</tr>
+
+
+			<tr>
+				<td align="right">
+					<div class="shipping-input-fields">
+						<label>Product Name :</label>
+					</div>
+				</td>
+				<td>
+					<div class="shipping-input-fields">
+						<input type="text" name="product_name" class="login-input"
+							style="width: 250px; height: 25px" />
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td align="right">
+					<div class="shipping-input-fields">
+						<label>Brand Name<span style="color: blue">*</span> :
+						</label>
+					</div>
+				</td>
+				<td>
+					<div class="shipping-input-fields">
+						<input type="text" name="brand_name" class="login-input"
+							style="width: 250px; height: 25px" required />
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">
+					<div class="shipping-input-fields">
+						<label>Product Description<span style="color: blue">*</span>
+							:
+						</label>
+					</div>
+				</td>
+				<td>
+					<div class="shipping-input-fields">
+						<input type="text" name="product_description" class="login-input"
+							style="width: 250px; height: 25px" required />
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">
+					<div class="shipping-input-fields">
+						<label>Price Amount<span style="color: blue">*</span> :
+						</label>
+					</div>
+				</td>
+				<td>
+					<div class="shipping-input-fields">
+						<input type="text" name="price_amt" class="login-input"
+							style="width: 250px; height: 25px" required />
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td align="right">
+					<div class="shipping-input-fields">
+						<label>UPC Code :</label>
+					</div>
+				</td>
+				<td>
+					<div class="shipping-input-fields">
+						<input type="text" name="p_upccode" class="login-input"
+							style="width: 250px; height: 25px" />
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td align="right">
+					<div class="shipping-input-fields">
+						<label>Vendor Name :</label>
+					</div>
+				</td>
+				<td>
+					<div class="shipping-input-fields">
+						<input type="text" name="vendor_name" class="login-input"
+							style="width: 250px; height: 25px" />
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td align="right">
+					<div class="shipping-input-fields">
+						<label>Quantity :</label>
+					</div>
+				</td>
+				<td>
+					<div class="shipping-input-fields">
+						<input type="text" name="p_quantity" class="login-input"
+							style="width: 250px; height: 25px" />
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2" align="center">
+					<div>
+						<button class="sign-in-up-button" type="submit">Add
+							Product</button>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
